@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-header {
+    width: 100%;
+    display: flex;
+}
+
+.sub-logo {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: "Segoe Print";
+}
+
+.logo span {
+    color: #FFFFFF;
+    font-family: "Segoe Print";
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+/* .logo {
+    display: inline;
+} */
+
+.logo img {
+    margin-top: 0px;
+    margin-left: 60px;
+    width: 50px;
+    float: left;
+    height: 50px;
+    padding-top: 20px;
+    margin-right: 0px;
+}
+
+body {
+    background-image: url("../images/backGroundImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+    height: 100%;
+    position: relative;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 750px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-area a:hover {
+    color: #615586;
+}
+
+.welcome-text {
+    color: #314760;
+    font-family: "Segoe UI";
+    margin-top: 150px;
+    line-height: 2.5em;
+    margin-left: 80px;
+    font-size: 25px;
+}
+
+.sub-text {
+    color: #314760;
+    line-height: 2em;
+    font-family: "Segoe UI";
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.home-image {
+    margin-top: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.main .left {
+    width: 40%;
+}
+
+.main .right {
+    width: 40%;
+    float: left;
+    margin-right: 0px;
+}
+
+.format-button {
+    background-color: #615586;
+    color: white;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 25px;
+    margin-left: 120px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #615586 ;
+}
+
+.format-button:hover {
+    background-color: #ffffff;
+    color: #615586;
+    border: 2px solid #FFFFFF;
+
+}
+
+
+.format-button:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+
+}
+
+
+

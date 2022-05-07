@@ -1,0 +1,190 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2021, 12:37:25 AM
+    Author     : myonl
+*/
+.icon-format {
+    margin-top: 20px;
+    margin-left: 700px;
+}
+
+.page-title {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 120px;
+    margin-left: -115px;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    padding-left: 20px;
+    min-width: 40px;
+    color: #7DD1C1;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    padding-left: 45px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #fff;
+    height: 18px;
+    box-shadow: 0 10px 30px 0 rgba(255, 255, 255, 0.2), 0 10px 30px 0 rgba(255, 255, 255, 0.19);
+}
+
+.input-field:focus {
+    outline-style: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.register-form {
+    max-width: 350px;
+    margin-top: 200px;
+    margin-left: -270px;
+}
+
+.my-button {
+    background-color: #ffffff;
+    color: #615586;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 70px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #615586;
+    outline: none;
+    margin-top: 50px;
+}
+
+.my-button:hover {
+    background-color: #f54b4b;
+    color: white;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button1 {
+    background-color: #615586;
+    color: white;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #615586;
+    outline: none;
+    margin-top: 10px;
+}
+
+.my-button1:hover {
+    background-color: #ffffff;
+    color: #615586;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button1:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+#p-format {
+    font-family: sans-serif;
+    color: #8E73C0;
+    margin-top: -30px;
+    margin-left: 3px;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+
+#p2-format {
+    font-family: sans-serif;
+    color: #8E73C0;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+#p-format a {
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#p2-format {
+    font-family: sans-serif;
+    color: #8E73C0;
+    margin-top: -30px;
+    margin-left: 3px;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+#p2-format a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+/* Style The Dropdown Button */
+
+.role-option {
+    background-color: #ffffff;
+    color: rgb(80, 77, 77);
+    padding: 40px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 205%;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    border-color: white;
+    padding-left: -60px;
+    margin-top: -100px;
+    height: 40px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.role-div {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}

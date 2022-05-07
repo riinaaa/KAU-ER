@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.sub-logo {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 50px;
+    color: white;
+    font-family: "Segoe Print";
+}
+
+.sidebar .user-icon .name-title{
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+.logo span {
+    color: #FFFFFF;
+    font-family: "Segoe Print";
+    margin-top: 80px;
+}
+
+/* .logo {
+    display: inline;
+} */
+
+.logo img {
+    width: 50px;
+    float: left;
+    padding-top: 20px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+
+.user-icon{
+    color: white;
+}
+
+.user-icon img {
+    height: 80px;
+    margin-top: 70px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.body {
+    background: #FBFBFB;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #AA95D1;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper .sidebar ul {
+    padding-top: 70px;
+    color: #E4E4E4;
+    font-size: 20px;
+}
+
+.wrapper .sidebar li {
+    padding-top: 45px;
+    color: #E4E4E4;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.wrapper .sidebar a {
+    text-decoration: none;
+    color: #E4E4E4;
+    padding-left: 15px;
+}
+
+.wrapper .sidebar li:hover {
+    color: #94D1CD;
+}
+
+.wrapper .sidebar li:hover a {
+    color: #94D1CD;
+}
+
+.main-content {
+    display: flex;
+    position: relative;
+    margin-top: 120px;
+    margin-left: 500px;
+}
+
+.header {
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.profile-form {
+    max-width: 350px;
+    margin-top: 100px;
+    margin-left: -140px;
+}
+
+.input-field {
+    color: black;
+    width: 180%;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border: 2px solid #FFFFFF;
+    background-color: #ffffff;
+    height: 10px;
+    box-shadow: 0 5px 8px 0 rgba(95, 83, 83, 0.2), 0 5px 8px 0 rgba(255, 255, 255, 0.19);
+}
+
+.profile-form label {
+    color: #AA95D1;
+    font-size: 17px;
+    font-family: "Microsoft New Tai Lue";
+}
+
+.buttons{
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.my-button {
+    text-align: center;
+    background-color: #ffffff;
+    color: #615586;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #AA95D1;
+    outline: none;
+/*    margin-top: 50px;*/
+    width: 110px;
+}
+
+.my-button:hover {
+    background-color: #f54b4b;
+    color: white;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button1 {
+    position: absolute;
+    top:820px;
+    left:400px;
+    
+    text-align: center;
+    background-color: #AA95D1;
+    color: white;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid#AA95D1;
+    outline: none;
+    width: 100px;
+}
+
+.my-button1:hover {
+    background-color: #ffffff;
+    color: #615586;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button1:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button2 {
+    position: absolute;
+    left: 250px;
+    top:878px;
+    text-align: center;
+    background-color: #AA95D1;
+    color: white;
+    font-family: "Verdana";
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 20px;
+    /*margin-left: 270px;*/
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid#AA95D1;
+    margin-top: -60px;
+    outline: none;
+    /*margin-bottom: 30px;*/
+    width: 100px;
+}
+
+.my-button2:hover {
+    background-color: #ffffff;
+    color: #615586;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-button2:active {
+    color: #7DD1C1;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+}
